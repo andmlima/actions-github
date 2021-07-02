@@ -4,14 +4,8 @@ on:
   
   push:
     branches: [ main ]
-    paths:
-      - app1/**
-
   pull_request:
-    branches: [ main ]  
-    paths:
-      - app1/**
-
+    branches: [ main ]
 
 jobs:
 
